@@ -39,3 +39,46 @@ The objective of this project is to create a strategic battleship game where pla
 
 Player scores are calculated using the following formula:
 
+Where:
+- `n` is the number of rows/columns in the grid.
+- `c` is the number of successful shots by the player.
+- `l` is the number of remaining ships of the opponent.
+
+## Features
+
+- Save and load game state.
+- View game progress and elapsed time during gameplay.
+- A user-friendly graphical user interface (GUI) for enhanced gameplay experience.
+
+## Getting Started
+
+To get started with the game, follow these steps:
+
+1. [Clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) this repository to your local machine.
+
+2. Compile the C++ source code using a C++ compiler of your choice.
+
+3. Run the compiled executable to start the game.
+
+## Usage
+
+1. Launch the game.
+2. Follow the on-screen instructions to set up the game.
+3. Take turns with the computer opponent to fire shots at each other's grids.
+4. Keep playing until one player wins.
+5. Enjoy the game!
+
+## Screenshots
+
+![Game Screenshot 1](/screenshots/screenshot1.png)
+
+![Game Screenshot 2](/screenshots/screenshot2.png)
+
+## Contributing
+
+Contributions to this project are welcome. If you have any ideas for improvements or new features, please open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
